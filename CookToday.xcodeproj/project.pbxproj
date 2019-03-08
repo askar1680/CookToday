@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7B0D0386222E306E003BECB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0385222E306E003BECB7 /* AppDelegate.swift */; };
-		7B0D0388222E306E003BECB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0387222E306E003BECB7 /* ViewController.swift */; };
 		7B0D038D222E307C003BECB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D038C222E307C003BECB7 /* Assets.xcassets */; };
 		7B0D0390222E307C003BECB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D038E222E307C003BECB7 /* LaunchScreen.storyboard */; };
 		7B0D039A222E31EF003BECB7 /* SlideOutMenuProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0399222E31EF003BECB7 /* SlideOutMenuProtocol.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		7B0D0382222E306E003BECB7 /* CookToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0D0385222E306E003BECB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B0D0387222E306E003BECB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B0D038C222E307C003BECB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B0D038F222E307C003BECB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B0D0391222E307C003BECB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,8 +68,6 @@
 			children = (
 				7B10F4C82230C5510009D594 /* Modules */,
 				7B0D0385222E306E003BECB7 /* AppDelegate.swift */,
-				7B0D0387222E306E003BECB7 /* ViewController.swift */,
-				7B0D039D222E3EA1003BECB7 /* SlideOutViewController.swift */,
 				7B0D0397222E3105003BECB7 /* Common */,
 				7B0D0398222E3127003BECB7 /* Supporting */,
 			);
@@ -81,6 +77,7 @@
 		7B0D0397222E3105003BECB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				7B0D039D222E3EA1003BECB7 /* SlideOutViewController.swift */,
 				7B0D0399222E31EF003BECB7 /* SlideOutMenuProtocol.swift */,
 				7B0D039B222E33EA003BECB7 /* ViewInstaller.swift */,
 				7B10F4CF2230C7CB0009D594 /* SpacerView.swift */,
@@ -195,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0D0388222E306E003BECB7 /* ViewController.swift in Sources */,
 				7B10F4CB2230C56F0009D594 /* MenuViewController.swift in Sources */,
 				7B0D039A222E31EF003BECB7 /* SlideOutMenuProtocol.swift in Sources */,
 				7B0D039E222E3EA1003BECB7 /* SlideOutViewController.swift in Sources */,

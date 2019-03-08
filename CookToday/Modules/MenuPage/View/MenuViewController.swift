@@ -10,8 +10,7 @@ import UIKit
 
 extension MenuViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let slidingController = UIApplication.shared.keyWindow?.rootViewController as? BaseSlidingController
-//        slidingController?.didSelecMenuItem(indexPath: indexPath)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 

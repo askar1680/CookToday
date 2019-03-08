@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow()
         window?.makeKeyAndVisible()
-        let viewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: viewController)
+        
         window?.rootViewController = SlideOutViewController()
         
         return true

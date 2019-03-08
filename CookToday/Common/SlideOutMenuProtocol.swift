@@ -29,7 +29,6 @@ protocol SlideOutMenuProtocol: class {
     func handleDarkTap()
 }
 
-// Variable inits
 extension SlideOutMenuProtocol {
     var menuWidth: CGFloat { return 300 }
     var velocityThreshold: CGFloat { return 500 }
